@@ -1,13 +1,12 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
-    public GameObject a;
-    public GameObject b;
-    public GameObject c;
-    public GameObject gameObject;
+    public Button a;
+    public Button b;
+    public Button c;
+
     [SerializeField] private string nextSceneName;
     //public void ChangeScene()
     //{
@@ -29,4 +28,20 @@ public class SceneChanger : MonoBehaviour
         }
 
     }
+    void Start()
+    {
+        if (a != null)
+        {
+            a.onClick.AddListener(ChangeScene);
+        }
+        if (b != null)
+        {
+            b.onClick.AddListener(ChangeScene);
+        }
+        if (c != null)
+        {
+            c.onClick.AddListener(ChangeScene);
+        }
+    }
+
 }
