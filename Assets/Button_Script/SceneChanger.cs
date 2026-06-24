@@ -9,8 +9,24 @@ public class SceneChanger : MonoBehaviour
     public GameObject c;
     public GameObject gameObject;
     [SerializeField] private string nextSceneName;
-    public void ChangeScene()
+    //public void ChangeScene()
+    //{
+    //    SceneManager.LoadScene(nextSceneName); // シーン名で指定
+    //}
+    private void Start()
     {
-        SceneManager.LoadScene(nextSceneName); // シーン名で指定
+        if (a != null) 
+        {
+            SceneManager.LoadScene(nextSceneName); // シーン名で指定
+        }
+        if (b != null)
+        {
+            SceneManager.LoadScene(nextSceneName); // シーン名で指定
+        }
+        if (c != null)
+        {
+            SceneManager.LoadScene(nextSceneName); // シーン名で指定
+        }
+
     }
 }

@@ -1760,7 +1760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2146254292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1774,7 +1774,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Nonderiti
   nonderiti: 50
-  nextSceneName: 
 --- !u!4 &2146254293
 Transform:
   m_ObjectHideFlags: 0
