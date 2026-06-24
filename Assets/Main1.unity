@@ -868,10 +868,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 187f1c539064bb74fb727d7ca605126c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  a: {fileID: 1582562875}
-  b: {fileID: 0}
+  a: {fileID: 1696449094}
+  B: {fileID: 0}
   c: {fileID: 0}
-  gameObject: {fileID: 0}
   nextSceneName: Main2
 --- !u!4 &1531322423
 Transform:
@@ -888,11 +887,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1582562875 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7327992283794862607, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
-  m_PrefabInstance: {fileID: 1696449093}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1582562876 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4826681116360817116, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
@@ -946,7 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1109,6 +1103,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+--- !u!114 &1696449094 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+  m_PrefabInstance: {fileID: 1696449093}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &1883251174
 GameObject:
   m_ObjectHideFlags: 0
