@@ -300,7 +300,6 @@ GameObject:
   m_Component:
   - component: {fileID: 852792734}
   - component: {fileID: 852792733}
-  - component: {fileID: 852792735}
   m_Layer: 0
   m_Name: NonderitiObject
   m_TagString: Untagged
@@ -336,23 +335,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &852792735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852792732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 187f1c539064bb74fb727d7ca605126c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  a: {fileID: 1182625027}
-  b: {fileID: 0}
-  c: {fileID: 0}
-  gameObject: {fileID: 0}
-  nextSceneName: Main1
 --- !u!1 &1182625027
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,18 +418,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1581661504}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Stage1
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 852792733}
         m_TargetAssemblyTypeName: Nonderiti, Assembly-CSharp
         m_MethodName: OnClick
@@ -776,7 +746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 187f1c539064bb74fb727d7ca605126c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scene
-  a: {fileID: 0}
+  a: {fileID: 1182625027}
   b: {fileID: 0}
   c: {fileID: 0}
   gameObject: {fileID: 0}
