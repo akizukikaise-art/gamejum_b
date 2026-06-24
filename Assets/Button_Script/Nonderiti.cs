@@ -4,32 +4,25 @@ using UnityEngine.SceneManagement;
 
 public class Nonderiti : MonoBehaviour
 {
-
-    public static int nonderiti=20;
-    [SerializeField] private string nextSceneName;
-    
+    [SerializeField] private static int nonderiti = 20;   
 
     private int TotalNonderi;
 
-    //void Awake()
-    //{
-    //    DontDestroyOnLoad(this);
-    //}
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
 
     public void OnClick()
     {
         TotalNonderi += nonderiti;
 
-        if (TotalNonderi >= 100) TotalNonderi = 100;
+        if (TotalNonderi >= 100)
+        {
+            TotalNonderi = 100;
+        }
 
         Debug.Log(TotalNonderi);
+
     }
-
-
-    //シーンの切り換え
-    public void ChangeScene()
-    {
-        SceneManager.LoadScene(nextSceneName);
-    }
-
 }
