@@ -14,34 +14,18 @@ public class SceneChanger : MonoBehaviour
     //}
     private void Start()
     {
-        if (a != null) 
-        {
-            SceneManager.LoadScene(nextSceneName); // シーン名で指定
-        }
-        if (b != null)
-        {
-            SceneManager.LoadScene(nextSceneName); // シーン名で指定
-        }
-        if (c != null)
-        {
-            SceneManager.LoadScene(nextSceneName); // シーン名で指定
-        }
-
-    }
-    void Start()
-    {
         if (a != null)
         {
-            a.onClick.AddListener(ChangeScene);
+            SceneManager.LoadScene(nextSceneName); // シーン名で指定
         }
         if (b != null)
         {
-            b.onClick.AddListener(ChangeScene);
+            SceneManager.LoadScene(nextSceneName); // シーン名で指定
         }
         if (c != null)
         {
-            c.onClick.AddListener(ChangeScene);
+            SceneManager.LoadScene(nextSceneName); // シーン名で指定
         }
-    }
 
+    }
 }
