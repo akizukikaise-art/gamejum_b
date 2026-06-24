@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class Nonderiti : MonoBehaviour
 {
-    [SerializeField] private static int nonderiti = 20;   
+    [SerializeField] private int nonderiti = 0;  
 
     private int TotalNonderi;
 
@@ -12,7 +12,11 @@ public class Nonderiti : MonoBehaviour
     {
         DontDestroyOnLoad(this);
     }
-
+    private void Update()
+    {
+        nonderiti += 1;
+        Debug.Log(nonderiti);
+    }
     public void OnClick()
     {
         TotalNonderi += nonderiti;
