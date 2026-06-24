@@ -2,19 +2,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class Nonderiti : MonoBehaviour
+public class DataKeep : MonoBehaviour
 {
 
-    public static int nonderiti=20;
+    public static int nonderiti = 20;
     [SerializeField] private string nextSceneName;
-    
+
 
     private int TotalNonderi;
 
-    //void Awake()
-    //{
-    //    DontDestroyOnLoad(this);
-    //}
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
 
     public void OnClick()
     {
