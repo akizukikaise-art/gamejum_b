@@ -1,15 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneChanger : MonoBehaviour
 {
-    //変数宣言
-    //シーン名
+    public GameObject a;
+    public GameObject b;
+    public GameObject c;
+    public GameObject gameObject;
     [SerializeField] private string nextSceneName;
-
-    //シーンの切り換え
     public void ChangeScene()
     {
-        SceneManager.LoadScene(nextSceneName);
+        SceneManager.LoadScene(nextSceneName); // シーン名で指定
     }
 }
