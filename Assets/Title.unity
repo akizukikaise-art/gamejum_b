@@ -690,7 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 187f1c539064bb74fb727d7ca605126c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scene
-  nextSceneName: Stage1
+  nextSceneName: Main
 --- !u!1 &1908258898
 GameObject:
   m_ObjectHideFlags: 0
