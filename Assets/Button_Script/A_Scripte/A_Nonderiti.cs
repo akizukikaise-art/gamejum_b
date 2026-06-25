@@ -3,10 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class A_Nonderiti : MonoBehaviour
 {
-    public int nonderiti;                // このボタンの点数
-    public A_DataKeep datakeep;
+    private A_DataKeep datakeep;
 
-    public void OnClick()
+    private void Awake()
+    {
+        datakeep = GameObject.FindAnyObjectByType<A_DataKeep>();
+    }
+
+    public void OnClick(int nonderiti)
     {
         A_DataKeep.Instance.AddNonderiti(nonderiti);
     }

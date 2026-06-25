@@ -11,8 +11,8 @@ public class SceneChanger : MonoBehaviour
     //{
     //    SceneManager.LoadScene(nextSceneName); // シーン名で指定
     //}
-    public void OnMyButtonClick(string nextSceneName)
-    {
-        SceneManager.LoadScene(nextSceneName); // シーン名で指定
-    }
+    //public void OnMyButtonClick(string nextSceneName)
+    //{
+    //    SceneManager.LoadScene(nextSceneName); // シーン名で指定
+    //}
 }

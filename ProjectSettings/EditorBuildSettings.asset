@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Title.unity
     guid: a78b44188bd3bed41b5cc8a74af531a9
   - enabled: 1
-    path: Assets/Main/Trash/NotttttMain1.unity
-    guid: 90a721a22dda2814380a80fa27d46ed6
-  - enabled: 1
     path: Assets/Main/Main1.unity
     guid: 4b9c33198b20e5b4ca730051eba02a70
   - enabled: 1
@@ -32,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Main/Main7.unity
     guid: 096020e628b87fa45acfe0ceff4f3aac
+  - enabled: 1
+    path: Assets/Result _nonderi.unity
+    guid: 3ba41067197f4b1429f21cdfe8813104
+  - enabled: 1
+    path: Assets/Result _nonderi _yobi.unity
+    guid: 2efab20f257693f41a1935ef41c695c3
+  - enabled: 1
+    path: Assets/Result _notnonderi 1.unity
+    guid: 03973617d957a5b45a5ccdfd437886fc
   m_configObjects: {}
