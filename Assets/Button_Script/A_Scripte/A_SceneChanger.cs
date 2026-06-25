@@ -11,9 +11,9 @@ public class A_SceneChanger : MonoBehaviour
     const int BADSCORE = 100;
 
     //シーン名
-    const string OKSCENE = "Result _nonderi";
+    const string OKSCENE = "Result _notnonderi 1";
     const string LITTLEBADSCENE = "Result _nonderi _yobi";
-    const string BADSCENE = "Result _notnonderi 1";
+    const string BADSCENE = "Result _nonderi";
 
     public void OnMyButtonClick(string nextSceneName)
     {
