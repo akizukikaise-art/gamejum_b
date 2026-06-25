@@ -9,27 +9,27 @@ EditorBuildSettings:
     path: Assets/Title.unity
     guid: a78b44188bd3bed41b5cc8a74af531a9
   - enabled: 1
-    path: Assets/Result.unity
-    guid: 071bd8c29e3b9e144998255fb48fcc0f
-  - enabled: 1
     path: Assets/Main/Trash/NotttttMain1.unity
     guid: 90a721a22dda2814380a80fa27d46ed6
   - enabled: 1
-    path: Assets/Main2.unity
-    guid: 94e5d162380bfe141a8d28de0b595352
+    path: Assets/Main/Main1.unity
+    guid: 4b9c33198b20e5b4ca730051eba02a70
   - enabled: 1
-    path: Assets/Main3.unity
-    guid: 887eaa4ae95eced4d9e8cbd9034a1889
+    path: Assets/Main/Main2.unity
+    guid: 63780b4eea1dca8458bc570cee73be8f
   - enabled: 1
-    path: Assets/Main4.unity
-    guid: e8cb7acdc878c3c4aa8bbfd22ce33614
+    path: Assets/Main/Main3.unity
+    guid: e2b1a25cc08a7bc46bac734399e418e8
   - enabled: 1
-    path: Assets/Main5.unity
-    guid: c335943f5818c6341b300ac5b9cb09fa
+    path: Assets/Main/Main4.unity
+    guid: ce1eaf19a440869448600592c08bb060
   - enabled: 1
-    path: Assets/Main6.unity
-    guid: 7e2891f2ff375254bb1cf13395d7e2aa
+    path: Assets/Main/Main5.unity
+    guid: 4a5626329b329e64e9b0699f8926e71b
   - enabled: 1
-    path: Assets/Main7.unity
-    guid: 00c7406e490c66f4bb7eee18271a17b5
+    path: Assets/Main/Main6.unity
+    guid: 44be78a7412c09b4caf9bdd1cd4010d3
+  - enabled: 1
+    path: Assets/Main/Main7.unity
+    guid: 096020e628b87fa45acfe0ceff4f3aac
   m_configObjects: {}
