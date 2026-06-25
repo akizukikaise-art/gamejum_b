@@ -8,8 +8,8 @@ public class A_DataKeep : MonoBehaviour
     //データの保存に必要
     public static A_DataKeep Instance;
 
-    public int TotalNonderi = 0;//今回のスコア
     public int FirstScore = -1;//1回目のスコア
+    public int TotalNonderi = 0;//今回のスコア
 
     [SerializeField] private TextMeshProUGUI scoreText;
 
