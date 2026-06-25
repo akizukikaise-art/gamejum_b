@@ -127,6 +127,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1675953867}
     m_Modifications:
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1531322422}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMyButtonClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Main6
+      objectReference: {fileID: 0}
     - target: {fileID: 4826681116360817116, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -309,6 +329,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1675953867}
     m_Modifications:
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1531322422}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMyButtonClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Main6
+      objectReference: {fileID: 0}
     - target: {fileID: 4826681116360817116, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -829,7 +869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3651891166396999429, guid: 16abeb30c905a4a48adb649dd9edaaa7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 349.7398
+      value: 145
       objectReference: {fileID: 0}
     - target: {fileID: 3651891166396999429, guid: 16abeb30c905a4a48adb649dd9edaaa7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1010,11 +1050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 187f1c539064bb74fb727d7ca605126c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  a: {fileID: 0}
-  b: {fileID: 0}
-  c: {fileID: 0}
-  gameObject: {fileID: 0}
-  nextSceneName: Main2
 --- !u!4 &1531322423
 Transform:
   m_ObjectHideFlags: 0
@@ -1446,6 +1481,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1675953867}
     m_Modifications:
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1531322422}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMyButtonClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181612303745323861, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Main6
+      objectReference: {fileID: 0}
     - target: {fileID: 4826681116360817116, guid: 2ab339a64e291114b9e7f28922d4e042, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
