@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Result.unity
     guid: 071bd8c29e3b9e144998255fb48fcc0f
   - enabled: 1
-    path: Assets/Main/Main1.unity
+    path: Assets/Main/Trash/NotttttMain1.unity
     guid: 90a721a22dda2814380a80fa27d46ed6
   - enabled: 1
     path: Assets/Main2.unity
